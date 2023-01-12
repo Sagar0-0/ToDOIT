@@ -10,7 +10,7 @@ object RegistrationUtils {
      * ...the username is already taken
      * ...the confirmed password is not same as first
      * ...the password contains less than eight chars
-     * ...the password contains no digit TODO
+     * ...the password contains no digit
      */
     fun validateRegistrationInput(
         userName : String,
